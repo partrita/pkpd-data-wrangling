@@ -1,13 +1,10 @@
-[workspace]
-name = "pkpd-data-wrangling"
-channels = ["conda-forge"]
-platforms = ["linux-64", "osx-64", "win-64"]
-
-[package]
+[project]
 name = "pkpd-data-wrangling"
 version = "0.1.0"
 description = "PK/PD Data Wrangling with Quarto and R"
 authors = ["한성필"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "win-64"]
 
 [dependencies]
 r-base = ">=4.3"
